@@ -22,3 +22,9 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.bg {
+  background: url(/Content/images/clash-royale.jpg) no-repeat center center fixed;
+  background-size: cover;
+  border: none;
+}
