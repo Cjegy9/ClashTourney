@@ -28,3 +28,8 @@ textarea {
   background-size: cover;
   border: none;
 }
+
+.trans {
+    background-color: rgba(105,100,100,0.8);
+    border-color: rgba(105,100,100,0.8);
+}
