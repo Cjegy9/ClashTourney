@@ -5,32 +5,100 @@
         &nbsp;
     </div>
     <div class="well trans" style="align-items: center">
-        <h2 style="color: #337ab7;">Create a Tournament</h2>
+        <h2 style="color: #ffffff">Create a Tournament</h2>
+        <hr />
         <div class="row">
-            <div class="col-md-4">
-                <h4>Details</h4>
+            <div class="col-sm-2">
+                <h4 style="color: #60c645">Details</h4>
             </div>
-            <div class="col-md-8">
-                <form>
-                    <div class="form-group">
-                        <label for="name">Tourney Name</label>
-                        <input type="text" id="name" />
-                    </div>
-                </form>
+            <div class="col-sm-10">
+                <label for="name">Tourney Name</label>
+                <div class="form-group">
+                    <input type="text" id="name" class="round" size="60"/>
+                </div>
+                <label for="link">Link</label>
+                <div class="form-group">
+                    <input type="text" id="link" class="round" size="60"/>
+                </div>
+                <label for="date">Date</label>
+                <div class="form-group">
+                    <input type="date" id="date" class="round" size="60"/>
+                </div>
+                <label for="time">Time</label>
+                <div class="form-group">
+                    <input type="time" id="time" class="round" size="60"/>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-2">
+                <h4 style="color: #60c645">Format</h4>
+            </div>
+            <div class="col-sm-10">
+                <label for="format">Format</label>
+                <div class="form-group">
+                    <select class="form-group round" id="format">
+                        <option>Single Elimination</option>
+                        <option>Double Elimination</option>
+                        <option>Round Robin</option>
+                    </select>
+                </div>
+                <label for="bestof">Best Of</label>
+                <div class="form-group">
+                    <select class="form-group round" id="bestof">
+                        <option>1</option>
+                        <option>3</option>
+                        <option>5</option>
+                        <option>7</option>
+                    </select>
+                </div>
+
             </div>
         </div>
         <div class="row">
-            1
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-2">
+                <h4 style="color: #60c645">Clash</h4>
+            </div>
+            <label for="playerlevel1">Player Level</label>
+            <div class="form-group">
+                <select class="form-group round" id="playerlevel1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                </select>
+                <label for="playerlevel2"> - to - </label>
+                <select class="form-group round" id="playerlevel2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                </select>
+            </div>
+            <div class="form-group">
+
+            </div>
         </div>
         <div class="row">
-            1
-        </div>
-        <div class="row">
-            1
-        </div>
-        <div class="row">
-            1
+            <div class="btn btn-primary btn-lg">Create</div>  
         </div>
     </div>
-    
 </div>

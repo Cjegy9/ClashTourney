@@ -30,6 +30,10 @@ textarea {
 }
 
 .trans {
-    background-color: rgba(105,100,100,0.8);
+    background-color: rgba(105,100,100,0.85);
     border-color: rgba(105,100,100,0.8);
+}
+
+.round {
+    border-radius: 5px;
 }
