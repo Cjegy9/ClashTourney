@@ -5,11 +5,11 @@
         &nbsp;
     </div>
     <div class="well trans" style="align-items: center">
-        <h2 style="color: #ffffff">Create a Tournament</h2>
+        <h2 style="color: #eeeeee">Create a Tournament</h2>
         <hr />
         <div class="row">
             <div class="col-sm-2">
-                <h4 style="color: #ffffff">Details</h4>
+                <h4 style="color: #eeeeee">Details</h4>
             </div>
             <div class="col-sm-10">
                 <label for="name">Tourney Name</label>
@@ -33,10 +33,10 @@
         <hr>
         <div class="row">
             <div class="col-sm-2">
-                <h4 style="color: #ffffff">Format</h4>
+                <h4 style="color: #eeeeee">Format</h4>
             </div>
             <div class="col-sm-10">
-                <label for="format" style="color: #ffffff">Format</label>
+                <label for="format">Format</label>
                 <div class="form-group">
                     <select class="form-group round" id="format">
                         <option>Single Elimination</option>
@@ -44,7 +44,7 @@
                         <option>Round Robin</option>
                     </select>
                 </div>
-                <label for="bestof" style="color: #ffffff">Best Of</label>
+                <label for="bestof">Best Of</label>
                 <div class="form-group">
                     <select class="form-group round" id="bestof">
                         <option>1</option>
@@ -59,52 +59,64 @@
         <hr />
         <div class="row">
             <div class="col-sm-2">
-                <h4 style="color: #ffffff">Participants</h4>
+                <h4 style="color: #eeeeee">Participants</h4>
             </div>
             <div class="col-sm-10">
+                <label for="participants_num">Number</label>
                 <div class="form-group">
-
+                    <input type="number" id="participants_num" />
+                </div>
+                <label for="seed_time">Seed Now ?</label>
+                <div class="form-group">
+                    <input type="checkbox" />
                 </div>
             </div>
         </div>
         <hr />
         <div class="row">
             <div class="col-sm-2">
-                <h4 style="color: #ffffff">Clash</h4>
+                <h4 style="color: #eeeeee">Clash</h4>
             </div>
-            <label for="playerlevel1" style="color: #ffffff">Player Level</label>
-            <div class="form-group">
-                <select class="form-group round" id="playerlevel1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                </select>
-                <label for="playerlevel2"> - to - </label>
-                <select class="form-group round" id="playerlevel2">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                </select>
+            <div class="col-sm-10">
+                <label for="playerlevel1">Player Level</label>
+                <div class="form-group">
+                    <select class="form-group round" id="playerlevel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                    </select>
+                    <label for="playerlevel2"> - to - </label>
+                    <select class="form-group round" id="playerlevel2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                    </select>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="btn btn-primary btn-lg">Create</div>  
+            <div class="col-sm-2">
+                &nbsp;
+            </div>
+            <div class="col-sm-10">
+                <div class="btn btn-primary btn-lg">Create</div>
+            </div>  
         </div>
     </div>
 </div>
